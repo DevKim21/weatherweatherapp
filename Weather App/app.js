@@ -1,5 +1,5 @@
 // https://api.openweathermap.org/data/2.5/weather
-const apiKey = '014d5303f5928476d54ad193c9ba257e';
+const apiKey = 'YOUR_API_KEY';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const weatherIcons = {
   Clear: 'Images/clear.png',
