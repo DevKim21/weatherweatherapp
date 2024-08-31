@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #1c2331;
+    color: #fff;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  
+  p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  #weather-container {
+    margin-top: 50px;
+    background-color: #252d3d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+    font-weight: 300;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+  }
+  
+  #error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
